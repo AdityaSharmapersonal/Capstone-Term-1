@@ -3,7 +3,7 @@ gunicorn==20.1.0
 itsdangerous==2.0.1
 Jinja2==3.0.3
 MarkupSafe>=2.0
-Werkzeug==0.15.5
+Werkzeug>=2.3.7
 numpy>=2.1.0
 scipy>=0.15.1
 scikit-learn>=1.5.2
@@ -12,5 +12,6 @@ pandas>=1.5.3
 Cython>= 0.28.5
 joblib==1.2.0
 --only-binary=:all:
+
 
 
